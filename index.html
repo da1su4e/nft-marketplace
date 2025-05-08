@@ -11,7 +11,7 @@
                 extend: {
                     fontFamily: {
                         sans: ['Work Sans', 'sans-serif'],
-                        space: ['"Space Mono', 'monospace'],
+                        space: ['Space Mono', 'monospace'],
                     },
                 },
             },
@@ -23,8 +23,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    
+<body class="bg-[#2b2b2b]">
+    <header class="px-[30px] py-[15px] sm:px-[50px] lg:py-5 flex justify-between">
+        <img src="images/logo/Logo.svg" alt="">
+        <nav class="flex items-center">
+            <div class="flex gap-[10px] items-center">
+                <ul class="font-sans font-semibold text-base text-white hidden lg:flex gap-[10px]">
+                    <li><a href="#" class="px-5 py-3">Marketplace</a></li>
+                    <li><a href="#" class="px-5 py-3">Rankings</a></li>
+                    <li><a href="#" class="px-5 py-3">Connect a wallet</a></li>
+                </ul>
+                <a href="#" class="hidden lg:flex gap-3 items-center px-[30px] py-5 bg-[#A259FF] rounded-[20px]">
+                    <i class="fa-regular fa-user text-xl text-white"></i>
+                    <span class="font-semibold text-base text-white">Sign Up</span>
+                </a>
+            </div>
+            <div class="block lg:hidden text-2xl">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>

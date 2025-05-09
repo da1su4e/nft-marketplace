@@ -32,7 +32,7 @@
                 <img src="/images/account/Image Placeholder.png" alt="main-image" class="w-full h-full object-cover">
             </div>
             <div class="flex items-center max-lg:mx-auto">
-                <div class="">
+                <div class="max-md:mt-5">
                     <div class="max-md:text-center">
                         <h2 class="text-[51px] font-semibold leading-[110%] max-lg:text-[38px]">Create account</h2>
                         <p class="text-[22px] font-normal leading-[160%] pt-5 max-lg:text-[16px]">Welcome! Enter Your Details And Start <span class="block"></span> Creating, Collecting And Selling NFTs.</p>
@@ -128,20 +128,26 @@
             <div class="font-sans max-lg:mt-4">
                 <h5 class="font-bold text-[22px] text-white font-space">Join Our Weekly Digest</h5>
                 <p class="pt-8">Get exclusive promotions & updates <span class="block max-lg:hidden"></span>straight to your inbox</p>
-                <form action="#" class="relative pt-5 flex flex-col gap-3">
+                <form action="#" class="relative pt-5 w-[420px] max-md:w-full">
                     <input
                         required
                         type="email"
                         name="email"
                         placeholder="Enter your email here"
-                        class="w-[420px] h-[60px] bg-white rounded-[20px] placeholder:text-[#2B2B2B] text-[#2B2B2B] px-5 outline-none
-                        focus:ring-[#A259FF] focus:ring-2 transition-color duration-300 max-md:w-[315px]"
+                        class="w-full h-[60px] bg-white rounded-[20px] placeholder:text-[#2B2B2B] text-[#2B2B2B] px-5 outline-none
+                        focus:ring-[#A259FF] focus:ring-2 transition-color duration-300"
                     />
-                    <button class="bg-[#A259FF] w-[420px] h-[60px] rounded-[20px] text-white font-semibold leading-[140%] 
-                    hover:bg-[#8A47D9] transition-colors duration-300 max-md:w-[315px] relative" type="submit">Subscribe
-                        <i class="fa-regular fa-envelope hidden max-md:block absolute left-20 top-6"></i>
+                    <button
+                        class="bg-[#A259FF] w-[180px] h-[60px] rounded-[20px] text-white font-semibold leading-[140%] 
+                        hover:bg-[#8A47D9] transition-colors duration-300 absolute top-[50px] right-0 -translate-y-1/2 
+                        max-md:static max-md:w-full max-md:mt-3 max-md:translate-y-0"
+                        type="submit"
+                    >
+                        <i class="fa-regular fa-envelope hidden max-md:inline-block pr-2"></i>
+                        Subscribe
                     </button>
                 </form>
+                
             </div>
         </div>
         <!--line-->

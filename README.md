@@ -15,7 +15,7 @@ Welcome to the **NFT Marketplace**! This platform allows users to create, collec
 - **JavaScript**
 
 ## Live Demo:
-You can check out the live demo of the site [here](#).
+You can check out the live demo of the site [here](https://da1su4e.github.io/nft-marketplace/).
 
 ## Installation:
 

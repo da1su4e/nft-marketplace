@@ -16,52 +16,34 @@
             },
         }
     </script>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M19 13H11V19H9V13H3V11H9V5H11V11H19V13Z'/%3E%3C/svg%3E" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
-    <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/svgs/solid/user-plus.svg" type="image/svg+xml">
     <title>Create Account - NFT</title>
 </head>
 <body class="bg-[#2B2B2B] text-white font-sans">
     <header class="px-[30px] py-[15px] sm:px-[50px] lg:py-5 flex justify-between items-center">
-        <a href="../index.html"><img src="../images/logo/Logo.svg" alt=""></a>
+        <img src="/images/account/Logo.png" alt="" class="h-[32px]">
         <nav class="flex items-center">
             <div class="flex gap-[10px] items-center">
                 <ul class="font-sans font-semibold text-base text-white hidden lg:flex gap-[10px]">
-                    <li><a href="#" class="px-5 py-3 rounded-lg transition-all duration-300 hover:bg-[#A259FF]/20">Marketplace</a></li>
-                    <li><a href="#" class="px-5 py-3 rounded-lg transition-all duration-300 hover:bg-[#A259FF]/20">Rankings</a></li>
-                    <li><a href="#" class="px-5 py-3 rounded-lg transition-all duration-300 hover:bg-[#A259FF]/20">Connect a wallet</a></li>
+                    <li><a href="#" class="px-5 py-3">Marketplace</a></li>
+                    <li><a href="#" class="px-5 py-3">Rankings</a></li>
+                    <li><a href="#" class="px-5 py-3">Connect a wallet</a></li>
                 </ul>
-                <a href="pages/account.html" class="hidden lg:flex gap-3 items-center px-[30px] py-5 bg-[#A259FF] rounded-[20px] transition-all duration-300 hover:shadow-[0_0_15px_#A259FF] hover:scale-105">
+                <a href="#" class="hidden lg:flex gap-3 items-center px-[30px] py-5 bg-[#A259FF] rounded-[20px]">
                     <i class="fa-regular fa-user text-xl text-white"></i>
                     <span class="font-semibold text-base text-white">Sign Up</span>
                 </a>
             </div>
-            <div class="block lg:hidden text-2xl" id="burgerBtn">
+            <div class="block lg:hidden text-2xl">
                 <i class="fa-solid fa-bars-staggered"></i>
             </div>
         </nav>
-        <div id="mobileMenu" class="fixed top-0 left-[-100%] w-full sm:w-3/4 md:w-1/2 h-full bg-[#1A1A1A] px-[30px] pt-[100px] pb-[50px] transition-all duration-300 ease-in-out z-[1000] border-r border-[#1C1C21]">
-            <i id="exit" class="fa-solid fa-xmark hidden absolute top-5 right-5 text-white text-2xl cursor-pointer"></i>
-        
-            <div class="flex flex-col gap-[50px] items-center justify-start h-full overflow-y-auto">
-                <div class="flex justify-center items-center">
-                    <img src="../images/logo/Logo.svg" alt="logo" />
-                </div>
-        
-                <ul class="flex flex-col gap-[20px] list-none text-white font-semibold text-xl text-center">
-                    <li><a href="#" class="px-4 py-2 rounded-lg transition-all duration-300 hover:bg-[#A259FF]/20">Marketplace</a></li>
-                    <li><a href="#" class="px-4 py-2 rounded-lg transition-all duration-300 hover:bg-[#A259FF]/20">Rankings</a></li>
-                    <li><a href="#" class="px-4 py-2 rounded-lg transition-all duration-300 hover:bg-[#A259FF]/20">Connect a wallet</a></li>
-                </ul>
-                <a href="pages/account.html" class="mt-2 px-4 py-3 text-center bg-[#A259FF] rounded-xl text-white font-semibold text-xl transition hover:scale-105 hover:shadow-[0_0_10px_#A259FF]">Sign Up</a>
-            </div>
-        </div>
     </header>
     <main class="">
-        <div class="container flex justify-between max-w-[1500px] mx-auto max-md:flex-col">
+        <div class="container flex justify-between max-w-[1500px] mx-auto  max-md:flex-col">
             <div class="max-md:w-full max-md:h-[302px] lg:w-[610px] h-[600px] max-lg:w-[397px] max-md:h-[100vh] object-cover">
                 <img src="/images/account/Image Placeholder.png" alt="main-image" class="w-full h-full object-cover">
             </div>
@@ -153,11 +135,11 @@
                     </a>
                 </div>
             </div>
-            <div class="font-sans max-lg:mt-4">
+            <div class="font-sans mt-4 flex flex-col">
                 <h5 class="font-bold text-[22px] text-white font-space">Explore</h5>
-                <p class="pt-8">Marketplace</p>
-                <p class="pt-4">Rankings</p>
-                <p class="pt-4">Connect a wallet</p>
+                <a class="pt-8" href="#Marketplace">Marketplace</a>
+                <a class="pt-4" href="#Rankings">Rankings</a>
+                <a class="pt-4" href="/pages/wallet.html">Connect a wallet</a>
             </div>
             <div class="font-sans max-lg:mt-4">
                 <h5 class="font-bold text-[22px] text-white font-space">Join Our Weekly Digest</h5>
@@ -192,7 +174,6 @@
             </p>
         </div>
     </footer>
-    <script src="../js/script.js"></script>
     <script src="/js/account.js"></script>
 </body>
 </html>

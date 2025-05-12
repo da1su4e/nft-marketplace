@@ -33,8 +33,9 @@
                     <li><a href="#" class="px-5 py-3">Rankings</a></li>
                     <li><a href="#" class="px-5 py-3">Connect a wallet</a></li>
                 </ul>
-                <a href="#" class="hidden lg:flex gap-3 items-center px-[30px] py-5 bg-[#A259FF] rounded-[20px]">
-                    <i class="fa-regular fa-user text-xl text-white"></i>
+                <a href="/pages/account.html"
+                    class="group hidden lg:flex gap-3 items-center px-[30px] py-5 bg-[#A259FF] rounded-[20px] border-2 border-transparent transition-all duration-300 hover:bg-transparent hover:border-[#A259FF] hover:shadow-none hover:scale-100">
+                    <i class="fa-regular fa-user text-xl text-white transition-colors duration-300 group-hover:text-[#A259FF]"></i>
                     <span class="font-semibold text-base text-white">Sign Up</span>
                 </a>
             </div>
@@ -44,7 +45,7 @@
         </nav>
     </header>
     <main class="">
-        <div class="container flex justify-between max-w-[1500px] mx-auto  max-md:flex-col">
+        <div class="container flex justify-around max-w-[1500px] mx-auto  max-md:flex-col">
             <div class="max-md:w-full max-md:h-[302px] lg:w-[610px] h-[600px] max-lg:w-[397px] max-md:h-[100vh] object-cover">
                 <img src="/images/account/Image Placeholder.png" alt="main-image" class="w-full h-full object-cover">
             </div>
@@ -107,7 +108,7 @@
                         </div>
                         <p class="text-red-600 hidden" id="error-text">Passwords do not match. Please check your entries.</p>
                         <p class="text-red-600 hidden" id="fill-text">Please fill out these fields.</p>
-                        <button class="w-[330px] h-[46px] bg-[#A259FF] rounded-[20px] mt-3 font-semibold hover:bg-[#8A47D9] transition-colors duration-300" id="create-button" type="submit">
+                        <button class="w-[330px] h-[46px] bg-[#A259FF] rounded-[20px] mt-3 font-semibold hover:bg-transparent border-2 border-transparent hover:border-[#A259FF] transition-colors duration-300" id="create-button" type="submit">
                             Create account
                         </button>
                     </form>
@@ -156,7 +157,7 @@
                     />
                     <button
                         class="bg-[#A259FF] w-[180px] h-[60px] rounded-[20px] text-white font-semibold leading-[140%] 
-                        hover:bg-[#8A47D9] transition-colors duration-300 absolute top-[50px] right-0 -translate-y-1/2 
+                        hover:bg-[#A259FF]/20 hover:text-[#A259FF] transition-colors duration-300 absolute top-[50px] right-0 -translate-y-1/2 
                         max-md:static max-md:w-full max-md:mt-3 max-md:translate-y-0"
                         type="submit"
                     >
